@@ -1,0 +1,212 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: beachsunshine;
+
+}
+
+body{
+	
+	color: black;
+	background: url(imagenes/L1.jpg);
+	background-size: 10% 10%;
+	background-attachment: fixed;
+}
+
+
+#contenedor{
+	width: 100%;
+	margin: auto;
+	margin-top: 20px;
+	overflow: hidden;
+
+}
+
+header{
+	height: 150px;
+	background: #FFC0CB;
+}
+
+header h1{
+	font-size: 50px;
+	text-align: center;
+	line-height: 60px;
+}
+
+nav{
+	background: aqua;
+	height: 60px;
+		
+}
+
+nav h2{
+	font-size: 40px;
+	text-align: center;
+	line-height: 60px;
+}
+
+
+#contenido{
+	width: 800px;
+	height: 850px;
+	margin-left: 100px;
+	background: #E6E6FA;
+	margin-top: 10px;
+	margin-right: 10px;
+
+	
+}
+
+#contenido h2{
+	font-size: 40px;
+	text-align: center;
+	line-height: 500px;
+}
+
+
+#titulo{
+	width: 360px;
+	height: 50px;
+	background: white;
+	text-align: center;
+	margin-left: 200px;
+	margin-top: 20px;
+	font-size: 40px;
+
+}
+
+#logo{
+	width: 250px;
+	height: 150px;
+	margin-top: 10px;
+}
+
+#logo2{
+	width: 250px;
+	height: 150px;
+	margin-top: 10px;
+	margin-left: -20px;
+}
+
+#logo3{
+	width: 250px;
+	height: 150px;
+	margin-top: 20px;
+		margin-left: -20px;
+
+}
+
+#titulo2{
+	width: 200px;
+	height: 45px;
+	background: white;
+	text-align: center;
+	margin-left: 280px;
+	margin-top: 170px;
+	font-size: 35px;
+
+}
+
+#titulo3{
+	width: 220px;
+	height: 45px;
+	background: white;
+	text-align: center;
+	margin-left: 280px;
+	margin-top: 180px;
+	font-size: 35px;
+
+}
+
+aside{
+	width: 400px;
+	height: 720px;
+	background: red;
+	margin-top: -850px;
+	margin-left: 930px;
+
+}
+
+aside h2{
+	font-size: 40px;
+	text-align: center;
+	line-height: 100px;
+	
+}
+
+aside p {
+	font-size: 29px;
+	text-align: center;
+}
+footer{
+
+	background: #FFC0CB;
+	clear: both;
+}
+
+footer h2{
+	font-size: 40px;
+	text-align: center;
+	padding: 20px;
+}
+
+
+
+.navegacion{
+	width: 700px;
+	margin: 30px auto;
+	background: #D87093;
+	font-size: 25px;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #353535;
+	text-decoration: none;
+	margin-left: 150px;
+}
+
+.menu li a:hover{
+	color: black;
+	transition: all .3s;
+
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #7CFC00;
+	width: 70%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+	margin-left: 120px;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+
+
+
